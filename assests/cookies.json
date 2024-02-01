@@ -1,0 +1,44 @@
+{
+    "cookies": [
+      {
+        "name": "Chocolate Chip Cookie",
+        "description": "A classic cookie with chunks of chocolate.",
+        "ingredients": ["flour", "butter", "sugar", "chocolate chips", "vanilla extract", "baking soda", "eggs", "salt"],
+        "origin": "United States",
+        "popular_regions": ["North America", "Europe"],
+        "image_url": "https://example.com/chocolate_chip_cookie.jpg"
+      },
+      {
+        "name": "Oatmeal Raisin Cookie",
+        "description": "A chewy cookie with oats and raisins.",
+        "ingredients": ["oats", "butter", "sugar", "raisins", "flour", "cinnamon", "baking soda", "eggs", "vanilla extract"],
+        "origin": "United States",
+        "popular_regions": ["North America", "Europe"],
+        "image_url": "https://example.com/oatmeal_raisin_cookie.jpg"
+      },
+      {
+        "name": "Snickerdoodle",
+        "description": "A soft and chewy cookie coated in cinnamon and sugar.",
+        "ingredients": ["flour", "butter", "sugar", "cinnamon", "baking soda", "cream of tartar", "eggs", "vanilla extract"],
+        "origin": "Germany",
+        "popular_regions": ["North America", "Europe"],
+        "image_url": "https://example.com/snickerdoodle.jpg"
+      },
+      {
+        "name": "Macaron",
+        "description": "A delicate and colorful French cookie with a smooth filling.",
+        "ingredients": ["almond flour", "powdered sugar", "egg whites", "sugar", "butter", "flavoring"],
+        "origin": "France",
+        "popular_regions": ["Europe", "North America", "Asia"],
+        "image_url": "https://example.com/macaron.jpg"
+      },
+      {
+        "name": "Peanut Butter Cookie",
+        "description": "A rich and nutty cookie made with peanut butter.",
+        "ingredients": ["peanut butter", "butter", "sugar", "flour", "baking soda", "eggs", "vanilla extract"],
+        "origin": "United States",
+        "popular_regions": ["North America", "Europe"],
+        "image_url": "https://example.com/peanut_butter_cookie.jpg"
+      }
+    ]
+  }

@@ -28,6 +28,9 @@ class _ListBuilderState extends State<ListBuilder> {
         widget.selectedList[index] = !widget.selectedList[index];
       });
     }
+    else{
+      Navigator.pushNamed(context, '/mealdetails',arguments: widget.data[index]);
+    }
   }
 
   @override

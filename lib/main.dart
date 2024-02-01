@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_localdatabase/screens/cookdetailspage.dart';
 import 'package:flutter_localdatabase/screens/screen1.dart';
 
 /// Flutter code sample for [ListTile] selection in a [ListView] or [GridView].
@@ -10,7 +11,11 @@ class ListViewExampleApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return  MaterialApp(
+      routes: {
+      '/mealdetails':(context)=>const cooksdetailspage(),
+    
+    },
       home: ListTileSelectExample(),debugShowCheckedModeBanner: false,
     );
   }

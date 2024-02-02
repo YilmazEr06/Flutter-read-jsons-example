@@ -13,7 +13,7 @@ class cokkies{
     ingredients = List<String>.from(map["ingredients"] ?? []);
     origin = map["origin"] ?? "";
     popularregions = List<String>.from(map["popular_regions"] ?? []);
-    imageurl = map["imageurl"] ?? "";
+    imageurl = map["image_url"] ?? "";
   }
 
 

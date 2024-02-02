@@ -39,7 +39,7 @@ class _ListBuilderState extends State<ListBuilder> {
         itemCount: widget.data.length,
         itemBuilder: (_, int index) {
           return ListTile(
-            leading: const CircleAvatar(backgroundColor:  Color.fromARGB(255, 178, 190, 201)),
+            leading:  CircleAvatar(backgroundColor:  Color.fromARGB(255, 178, 190, 201),backgroundImage: NetworkImage(widget.data[index].getimageurl)),
               onTap: () => _toggle(index),
               onLongPress: () {
                 if (!widget.isSelectionMode) {

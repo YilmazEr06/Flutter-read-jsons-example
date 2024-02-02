@@ -35,6 +35,9 @@ class _cooksdetailspage extends State<cooksdetailspage> {
               child: CircleAvatar(
                 backgroundColor: Colors.blue,
                 minRadius: 100,
+                backgroundImage:  NetworkImage(args.getimageurl),
+            
+
               ),
             ),
             Padding(
